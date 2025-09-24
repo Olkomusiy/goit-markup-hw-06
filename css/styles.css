@@ -66,6 +66,8 @@ a{
         line-height: 150%;
         letter-spacing: 0.04em;
         color: #fff;
+        outline: none;   
+        box-shadow: none; 
 }
 .main-button:hover,
 .main-button:focus{
