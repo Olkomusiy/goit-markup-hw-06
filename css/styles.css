@@ -68,6 +68,7 @@ a{
         color: #fff;
         outline: none;   
         box-shadow: none; 
+        cursor: pointer;
 }
 .main-button:hover,
 .main-button:focus{
@@ -87,13 +88,20 @@ a{
         letter-spacing: 0.02em;
         color: #434455;
 }
+.second-page-section{
+    background-color: #F4F4FD
+}
 .team-header{
+    text-transform: capitalize;
     font-weight: 700;
         font-size: 36px;
         line-height: 111%;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+}
+.img-list{
+    background-color: #FFFFFF
 }
 .img-name{
     font-weight: 500;
