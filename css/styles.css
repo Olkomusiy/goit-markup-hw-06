@@ -16,7 +16,8 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 a {
-    text-decoration: none
+    text-decoration: none;
+    display: inline-block;
 }
 
 img{
@@ -322,4 +323,13 @@ align-items: center;
 
 .footer-logo{
     margin-bottom: 16px;
+    display: inline-block;
+}
+
+.logo .footer-logo{
+    display: inline-block;
+}
+
+.logo-part{
+    display: inline-block;
 }
