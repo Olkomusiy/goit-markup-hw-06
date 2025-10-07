@@ -317,9 +317,9 @@ align-items: center;
 
 .footer-logo .logo-part {
     color: #f4f4fd;
+    display: inline-block;
 }
 
 .footer-logo{
-    display: inline-block;
     margin-bottom: 16px;
 }
