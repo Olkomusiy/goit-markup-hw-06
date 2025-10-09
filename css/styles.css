@@ -216,6 +216,21 @@ align-items: center;
     width: calc((100% - 72px) / 4);
 }
 
+.descr-container {
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px; 
+    background-color: #F4F4FD;
+
+}
+
+.content {
+    position: relative;
+    top: 24px;
+    left: 100px;
+}
+
 .descr-item {
     margin-bottom: 8px;
     font-weight: 500;
