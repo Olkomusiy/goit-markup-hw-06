@@ -290,6 +290,8 @@ img {
 
 .images {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .img-list {
@@ -302,10 +304,12 @@ img {
     border-radius: 0px 0px 4px 4px;
     width: 100%;
     height: 100%;
+    margin-right: 24px;
 }
 
 .img-d-container {
     padding: 32px 0;
+    
 }
 
 .img-name {
