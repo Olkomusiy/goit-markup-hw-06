@@ -92,6 +92,7 @@ img {
 
 .nav-link.current {
     position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link.current::after {
@@ -139,7 +140,7 @@ img {
 .nav-link:focus,
 .nav-link.current {
     color: #404bbf;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 /*Hero section*/
@@ -196,12 +197,13 @@ img {
     color: #fff;
     outline: none;
     cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-button:hover,
 .main-button:focus {
     background-color: #404bbf;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 /*First section*/
@@ -340,11 +342,11 @@ img {
     border-radius: 50%;
     align-items: center;
     justify-content: center;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
 .social-list:hover {
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: #404BBF;
 }
 
@@ -476,7 +478,8 @@ transform: translateY(0);
     background-color: #4D5AE5;
     border-radius: 50%;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;   
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icon {
@@ -486,7 +489,6 @@ transform: translateY(0);
 
 .footer-icon-list:hover,
 .footer-icon-list:focus {
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color:  #31D0AA;
 }
 
