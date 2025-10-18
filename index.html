@@ -359,28 +359,31 @@ for Your Business"
         </div>
         </section>
     </main>
-    <div class="modal-overlay">
+    <div class="backdrop">
       <div class="modal">
-        <form class="modal-form" name="modal-form">
-          <p class="modal-text">Leave your contacts and we will call you back</p>
-          <label class="form-label">
-            Name
-            <input class="form-input" type="text" name="username"/>
+        <button class="modal-btn" type="button">
+          <svg class="modal-btn-icon" width="" height="">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button> 
+
+        <p>Leave your contacts and we will call you back 
+        </p>
+
+        <form class="modal form" name="review">
+          <label for="user_name">Name
+            <input type="text" id="user_name" name="user_name"/>
           </label>
-          <label class="form-label">
-            Phone
-            <input class="form-input" type="tel" name="telephone"/>
+          <label for="user_phone">Phone
+            <input type="tel" id="user_phone" name="user_phone"/>
           </label>
-           <label class="form-label">
-            Email
-            <input class="form-input" type="text" name="email"/>
+          <label for="user_email">Email
+            <input type="email" id="user_email" name="user_email"/>
           </label>
-          <label class="form-label">
-            Comment
-            <textarea class="form-input" name="comment" rows="8" placeholder="Text input">
-              </textarea>
-          </label>
+
+          <button type="submit">Send</button>
         </form>
+        
   
       </div>
     </div>
@@ -430,6 +433,14 @@ for Your Business"
               </ul>
               </div>
       </div>
+      <form class="footer-form" name="subscribe-form">
+        <label>Subscribe
+          <input type="email"/>
+        </label>
+        <svg>
+          <use href="./images/icons.svg#icon-telegram"></use>
+        </svg>
+      </form>
     </footer>
   </body>
 </html>
