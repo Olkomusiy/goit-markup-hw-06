@@ -511,6 +511,7 @@ background: #FCFCFC;
 position: absolute;
     top: 24px;
     right: 24px;
+    cursor: pointer;
 
     width: 24px;
     height: 24px;
@@ -518,17 +519,20 @@ position: absolute;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+    background-color: #F4F4FD;
     border: 1px solid #E7E9FC;
-    color: #2E2F42;
 }
 
-.modal-btn:hover,
-.modal-btn:focus {
-    color: #404BBF;
+.modal .modal-btn:hover,
+.modal .modal-btn:focus {
+    background-color: #404BBF;
+    border: none;
+    fill: #FFFFFF
 }
+   
 
 .modal-btn-icon {
-
+fill: #2E2F42;
 }
 
 .modal-text {
@@ -763,24 +767,58 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: #f4f4fd;
 }
 
+.footer-right-part {
+    margin-right: 80px;
+}
 
-/*<form class="modal-form" name="modal-form">
-          <p class="modal-text">Leave your contacts and we will call you back</p>
-          <label class="form-label">
-            Name
-            <input class="form-input" type="text" name="username"/>
-          </label>
-          <label class="form-label">
-            Phone
-            <input class="form-input" type="tel" name="telephone"/>
-          </label>
-           <label class="form-label">
-            Email
-            <input class="form-input" type="text" name="email"/>
-          </label>
-          <label class="form-label">
-            Comment
-            <textarea class="form-input" name="comment" rows="8" placeholder="Text input">
-              </textarea>
-          </label>
-        </form>*/
+.footer-subscribe-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.subscribe-label {
+
+}
+
+.subscribe-input {
+    width: 264px;
+    height: 40px;
+    margin-right: 24px;
+    background-color: #2E2F42;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+
+        font-size: 12px;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+    outline: transparent;
+}
+
+.subscribe-input::placeholder {
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.subscribe-btn{
+   
+    text-align: center;
+    min-width: 165px;
+    height: 40px;
+    border: none;
+border-radius: 4px;
+padding: 8px 24px;
+background:#4D5AE5;
+
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.subscribe-btn-icon {
+    margin-left: 16px;
+}
