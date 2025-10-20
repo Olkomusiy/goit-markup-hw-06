@@ -748,7 +748,7 @@ transform: translateY(0);
     border-color: #4D5AE5;
 }
 
-.modal-form-input:focus + .modal-form-icon:focus {
+.modal-form-input:focus + .modal-form-icon {
     fill: #4D5AE5;
 }
 
@@ -806,10 +806,10 @@ transform: translateY(0);
     color: #8E8F99;
 }
 
-.modal-checkbox-input:checked + .modal-checkbox-label > .agreement-checkbox {
+input[type="checkbox"]:checked + .modal-checkbox-label > .agreement-checkbox {
     background-color: #404BBF;
-    border: none;
     fill: #F4F4FD;
+    border: none;
 }
 
 .agreement-checkbox {
