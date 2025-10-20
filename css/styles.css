@@ -681,6 +681,10 @@ transform: translateY(0);
 .modal-btn:focus {
     background-color: #404bbf;
     border: none;
+}
+
+.modal-btn:hover,
+.modal-btn:focus > .modal-btn-icon {
     fill: #ffffff
 }
 
