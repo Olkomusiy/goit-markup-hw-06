@@ -683,9 +683,9 @@ transform: translateY(0);
     border: none;
 }
 
-.modal-btn:hover,
-.modal-btn:focus > .modal-btn-icon {
-    fill: #ffffff
+.modal-btn:hover .modal-btn-icon,
+.modal-btn:focus .modal-btn-icon {
+    fill: #ffffff;
 }
 
 
