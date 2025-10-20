@@ -705,8 +705,7 @@ transform: translateY(0);
 .modal-form {}
 
 .modal-form-field {
-    margin-bottom: 8px;
-
+    margin-bottom: 16px; 
 }
 
 .modal-form-label {
@@ -747,6 +746,7 @@ transform: translateY(0);
 
 .modal-form-input:focus + .modal-form-icon {
     fill: #4D5AE5;
+    
 }
 
 .modal-form-icon {
