@@ -549,10 +549,7 @@ transform: translateY(0);
 
 .footer-subscribe-container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
+    flex-direction: column;    
 }
 
 .footer-subscribe-text {
@@ -569,14 +566,10 @@ transform: translateY(0);
     gap: 24px;
 }
 
-.subscribe-label {
-}
-
 .subscribe-input {
     width: 264px;
     height: 40px;
     padding-left: 16px;
-    margin-right: 24px;
     background-color: transparent;
     border: 1px solid #ffffff;
     border-radius: 4px;
@@ -609,9 +602,15 @@ transform: translateY(0);
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     background: #4D5AE5;
     color: #FFFFFF;
+}
+
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+background-color: #404BBF;
 }
 
 .subscribe-btn-icon {
