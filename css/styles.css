@@ -636,9 +636,9 @@ transform: translateY(0);
     transition-property: opacity, visibility;
 }
 
-.backdrop-is-open {
+.backdrop.is-open {
     opacity: 1;
-    pointer-events: initial;
+    pointer-events: auto;
     visibility: visible;
 }
 
