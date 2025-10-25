@@ -4,6 +4,16 @@
 /*First section*/
 
 /*Second section*/
+.second-page-section {
+    max-width: 100%;
+    background-color: #F4F4FD;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .images {
     display: flex;
@@ -18,20 +28,12 @@
 /*Third section*/
 /*Footer section*/
 
-.footer-container {
-flex-direction: row;
-}
 
 .page-footer {
     padding: 100px 0;
 }
 
 .footer-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: #f4f4fd;
     max-width: 264px;
 }
 .footer-social-text {
@@ -42,82 +44,18 @@ flex-direction: row;
     margin-right: 120px;
 }
 
-.footer-svg {
-    fill: #f4f4fd;
-}
 
 .footer-right-part {
     margin-right: 80px;
 }
-
-.footer-subscribe-container {
-    display: flex;
-    flex-direction: column;
-}
-
-.footer-subscribe-text {
-    margin-bottom: 16px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: #ffffff;
-}
-
-.footer-form {
-    display: flex;
-    gap: 24px;
+.footer-right-part {
+    margin-left: 0;
+    margin-right: 0;
+    /*додав*/
 }
 
 .subscribe-input {
-    width: 264px;
-    height: 40px;
-    padding-left: 16px;
-    background-color: transparent;
-    border: 1px solid #ffffff;
-    border-radius: 4px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
-    font-size: 12px;
-    line-height: 2;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-    outline: transparent;
-}
-
-.subscribe-input::placeholder {
-    font-size: 12px;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-}
-
-.subscribe-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-width: 165px;
-    height: 40px;
-    border: none;
-    border-radius: 4px;
-    padding: 8px 24px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    cursor: pointer;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-    background: #4D5AE5;
-    color: #FFFFFF;
-}
-
-.subscribe-btn:hover,
-.subscribe-btn:focus {
-    background-color: #404BBF;
-}
-
-.subscribe-btn-icon {
-    margin-left: 16px;
+  margin-bottom 0px;
 }
 
 /*Modal window*/
