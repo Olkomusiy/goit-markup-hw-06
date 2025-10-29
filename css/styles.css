@@ -294,6 +294,9 @@ margin-bottom: 24px;
 .mob-contacts-item {
     margin-bottom: 24px;
 }
+.mob-contacts-item:last-child {
+    margin-bottom: 0;
+}
 .mob-contacts-link {
     font-family: var(--font-family);
         font-weight: 500;
@@ -339,7 +342,7 @@ margin-bottom: 24px;
         url(../images/hero-background/hero-img-mobile1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: auto;
+    background-size: cover;
 }
 @media (min-resolution: 2x) {
     .main-section {
@@ -547,8 +550,7 @@ margin-bottom: 24px;
 }
 .images {
     width: 264px;
-    justify-content: center;
-    align-items: center;
+    margin: 0 auto;
 }
 .img-list {
     background-color: #FFFFFF;
@@ -619,6 +621,8 @@ margin-bottom: 24px;
 @media screen and (min-width: 768px) {
 .images {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     width: 736px;
     gap: 72px 24px;
